@@ -1,0 +1,35 @@
+{
+  "name": "alist-hono-web",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@solid-primitives/event-listener": "latest",
+    "@solid-primitives/media": "latest",
+    "@solid-primitives/resize-observer": "latest",
+    "@solid-primitives/scheduled": "latest",
+    "@solid-primitives/workers": "latest",
+    "@solidjs/meta": "latest",
+    "@solidjs/router": "^0.14.3",
+    "@solidjs/start": "^1.0.6",
+    "@tanstack/solid-virtual": "latest",
+    "@unocss/reset": "^0.62.2",
+    "@unscatty/unocss-preset-daisy": "^1.0.0",
+    "daisyui": "^4.12.10",
+    "solid-js": "^1.8.21",
+    "unocss": "^0.62.2",
+    "unocss-preset-extra": "^0.5.3",
+    "vinxi": "^0.4.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.2.0",
+    "@typescript-eslint/parser": "^8.2.0",
+    "eslint": "^9.9.0"
+  }
+}
